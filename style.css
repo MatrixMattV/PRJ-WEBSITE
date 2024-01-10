@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-katie-cerami-14914172.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+nav a:active {
+    color: blue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    color: rgb(248, 69, 69);
+    max-width: 600px;
+}
+
+.main-content p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(248, 69, 69);
+    margin-top: 20px;
+}
+
+.main-content button {
+    font-size: 1rem;
+    color: #fff;
+    background: red;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    color: red;
+    background: #fff;
+}
